@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		5795AF3927942AF10035E4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF3827942AF10035E4E3 /* AppDelegate.swift */; };
 		5795AF3B27942AF10035E4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF3A27942AF10035E4E3 /* SceneDelegate.swift */; };
-		5795AF3D27942AF10035E4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795AF3C27942AF10035E4E3 /* ViewController.swift */; };
 		5795AF4027942AF10035E4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF3E27942AF10035E4E3 /* Main.storyboard */; };
 		5795AF4227942AF30035E4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF4127942AF30035E4E3 /* Assets.xcassets */; };
 		5795AF4527942AF30035E4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5795AF4327942AF30035E4E3 /* LaunchScreen.storyboard */; };
+		5795B00D279435BE0035E4E3 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B00C279435BE0035E4E3 /* DescriptionViewController.swift */; };
+		5795B00F279435DE0035E4E3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B00E279435DE0035E4E3 /* MainViewController.swift */; };
+		5795B011279435E80035E4E3 /* MakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B010279435E80035E4E3 /* MakerViewController.swift */; };
+		5795B013279435F60035E4E3 /* AnimalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5795B012279435F60035E4E3 /* AnimalInfo.swift */; };
+		5795B01A2794375C0035E4E3 /* Animals.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5795B0182794375C0035E4E3 /* Animals.xcassets */; };
+		5795B01B2794375C0035E4E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5795B0192794375C0035E4E3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5795AF3527942AF10035E4E3 /* Study-CompanionAnimals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Study-CompanionAnimals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5795AF3827942AF10035E4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5795AF3A27942AF10035E4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5795AF3C27942AF10035E4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5795AF3F27942AF10035E4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5795AF4127942AF30035E4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5795AF4427942AF30035E4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5795AF4627942AF30035E4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5795B00C279435BE0035E4E3 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionViewController.swift; path = ../../CompanionAnimals/CompanionAnimals/DescriptionViewController.swift; sourceTree = "<group>"; };
+		5795B00E279435DE0035E4E3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../CompanionAnimals/CompanionAnimals/MainViewController.swift; sourceTree = "<group>"; };
+		5795B010279435E80035E4E3 /* MakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MakerViewController.swift; path = ../../CompanionAnimals/CompanionAnimals/MakerViewController.swift; sourceTree = "<group>"; };
+		5795B012279435F60035E4E3 /* AnimalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnimalInfo.swift; path = ../../CompanionAnimals/CompanionAnimals/AnimalInfo.swift; sourceTree = "<group>"; };
+		5795B0182794375C0035E4E3 /* Animals.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Animals.xcassets; sourceTree = "<group>"; };
+		5795B0192794375C0035E4E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		5795AF3727942AF10035E4E3 /* Study-CompanionAnimals */ = {
 			isa = PBXGroup;
 			children = (
-				5795AF3827942AF10035E4E3 /* AppDelegate.swift */,
-				5795AF3A27942AF10035E4E3 /* SceneDelegate.swift */,
-				5795AF3C27942AF10035E4E3 /* ViewController.swift */,
-				5795AF3E27942AF10035E4E3 /* Main.storyboard */,
-				5795AF4127942AF30035E4E3 /* Assets.xcassets */,
-				5795AF4327942AF30035E4E3 /* LaunchScreen.storyboard */,
 				5795AF4627942AF30035E4E3 /* Info.plist */,
+				5795B012279435F60035E4E3 /* AnimalInfo.swift */,
+				5795AF3827942AF10035E4E3 /* AppDelegate.swift */,
+				5795B00C279435BE0035E4E3 /* DescriptionViewController.swift */,
+				5795B00E279435DE0035E4E3 /* MainViewController.swift */,
+				5795B010279435E80035E4E3 /* MakerViewController.swift */,
+				5795AF3A27942AF10035E4E3 /* SceneDelegate.swift */,
+				5795B0182794375C0035E4E3 /* Animals.xcassets */,
+				5795AF4127942AF30035E4E3 /* Assets.xcassets */,
+				5795B0192794375C0035E4E3 /* Images.xcassets */,
+				5795AF4327942AF30035E4E3 /* LaunchScreen.storyboard */,
+				5795AF3E27942AF10035E4E3 /* Main.storyboard */,
 			);
 			path = "Study-CompanionAnimals";
 			sourceTree = "<group>";
@@ -126,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5795AF4527942AF30035E4E3 /* LaunchScreen.storyboard in Resources */,
+				5795B01B2794375C0035E4E3 /* Images.xcassets in Resources */,
+				5795B01A2794375C0035E4E3 /* Animals.xcassets in Resources */,
 				5795AF4227942AF30035E4E3 /* Assets.xcassets in Resources */,
 				5795AF4027942AF10035E4E3 /* Main.storyboard in Resources */,
 			);
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5795AF3D27942AF10035E4E3 /* ViewController.swift in Sources */,
+				5795B011279435E80035E4E3 /* MakerViewController.swift in Sources */,
+				5795B00D279435BE0035E4E3 /* DescriptionViewController.swift in Sources */,
 				5795AF3927942AF10035E4E3 /* AppDelegate.swift in Sources */,
 				5795AF3B27942AF10035E4E3 /* SceneDelegate.swift in Sources */,
+				5795B00F279435DE0035E4E3 /* MainViewController.swift in Sources */,
+				5795B013279435F60035E4E3 /* AnimalInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
